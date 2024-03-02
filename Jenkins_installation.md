@@ -10,7 +10,7 @@ jenkins installation:
 
 # steps:
 ---------
-'''
+```
 sudo apt update
 sudo apt install openjdk-17-jdk -y
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
@@ -22,13 +22,13 @@ sudo apt-get update
 sudo apt-get install jenkins
 sudo systemctl status jenkins
 
-'''
+```
 
-'''
+```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-'''
+```
 
-'''
+```
 sudo -i
 visudo
 
@@ -36,7 +36,7 @@ jenkins ALL=(ALL:ALL) NOPASSWD:ALL
 
 save and exit 
 
-'''
+```
 
 when we install jenkins server it will create user as jenkins 
 and jenkins home directory is /var/lib/jenkins
