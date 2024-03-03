@@ -28,15 +28,6 @@ sudo systemctl status jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-```
-sudo -i
-visudo
-
-jenkins ALL=(ALL:ALL) NOPASSWD:ALL
-
-save and exit 
-
-```
 
 when we install jenkins server it will create user as jenkins 
 and jenkins home directory is /var/lib/jenkins
